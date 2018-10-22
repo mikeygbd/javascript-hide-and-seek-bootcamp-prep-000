@@ -17,8 +17,8 @@ items[i].innerHTML = parseInt(items[i].innerHTML) + n
   }
 }
 function deepestChild() {
-  let node = document.
-  getElementById('app')
+  let node = document
+  .getElementById('app')
   .querySelector('div#grand-node div div div div');
   return node
 }
